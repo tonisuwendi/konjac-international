@@ -10,6 +10,7 @@
 
 a {
     text-decoration: none;
+    line-height: 0;
 }
 
 .button-outline {
@@ -46,14 +47,8 @@ a {
     z-index: 9;
 }
 
-.header__nav__brand-name {
-    color: #333;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.header__nav__brand-name__span {
-    color: #0ea2bd;
+.header__nav__logo {
+    height: 55px;
 }
 
 .header__nav__button {
