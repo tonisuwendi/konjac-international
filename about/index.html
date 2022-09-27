@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Konjac International</title>
+    <link rel="stylesheet" href="/app.css?v=1">
+    <link rel="stylesheet" href="/about/style.css?v=1">
+    <script src="/main.js?v=1"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <a href="/">
+                <h2 class="header__nav__brand-name">Konjac <span
+                        class="header__nav__brand-name__span">International</span></h2>
+            </a>
+            <button id="navButtonMenu" class="header__nav__button" type="button">
+                <img src="/images/burger-bar.png" alt="menu" class="header__nav__button__image">
+            </button>
+            <ul class="header__nav__list">
+                <li>
+                    <a href="/" class="header__nav__list__item">HOME</a>
+                </li>
+                <li>
+                    <a href="/about" class="header__nav__list__item active">ABOUT</a>
+                </li>
+                <li>
+                    <a href="/product" class="header__nav__list__item">PRODUCT</a>
+                </li>
+                <li>
+                    <a href="/service" class="header__nav__list__item">SERVICE</a>
+                </li>
+                <li>
+                    <a href="/contact" class="header__nav__list__item">CONTACT</a>
+                </li>
+                <li>
+                    <img id="headerFlagLanguage" onclick="changeLanguage()" class="header__nav__list__item-flag"
+                        src="/images/china.png" alt="flag">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-helper"></div>
+
+    <section class="natural">
+        <div class="natural__text">
+            <div class="natural__text__item">
+                <h3 class="natural__text__item__title">
+                    <script>print(CN_LANG ? "建造": "Constuction")</script>
+                </h3>
+                <p class="natural__text__item__description">
+                    <script>print(CN_LANG ? "PT.Rozaktana 成⽴于 1997 年，是⼀家综合性建筑公司。随着时间的推移，更不⽤说我们已 经取得的成就, 我们获得了相当多的⽆价经验, 这将我们带到了这⾥。⽬前, Rozaktana 与 许多⼤公司建⽴了密切的联系，包括国内甚⾄海外的合作伙伴。 凭借我们公司的良好声誉，我们⼀直在与世界上⼀些最⼤的公司和品牌合作，决⼼推⼴印度 尼西亚，以获得技术上的重⼤突破。" : "PT.Rozaktana is established in 1997 as a one extensive construction company. As time goes by, much less the accomplishments we've achieved, we have gained a considerable amount of priceless experiences, which brings us here. At the moment, Rozaktana conducts strong connections with many big companies, both domestic-based and even overseas companionships.<br /> With the with-standing reputation of our company, we have been partnering up with some of the biggest companies and brands in the world, determine to promote Indonesia in order to obtain a major breakthrough in the matter of technologies.")</script>
+                </p>
+            </div>
+            <div class="natural__text__divider"></div>
+            <div class="natural__text__item">
+                <h3 class="natural__text__item__title">
+                    <script>print(CN_LANG ? "矿业" : "Mining")</script>
+                </h3>
+                <p class="natural__text__item__description">
+                    <script>print(CN_LANG ? "2005年, 我们决定将业务扩展到著名的采矿业，特别是镍和铁矿⽯, 这 使我们在两个不同的岛屿上对这两种资源进⾏了实地调查和研究。镍 矿，特别位于 Luwuk 的中苏拉威西，以及在西⽖哇 Pangandaran 的铁 矿勘探。" : "In the year of 2005, we decided to expand our business into the notable mining industries, particularly the nickel and iron ores, which makes us carried out the field surveys and researches for both resources on two different islands. Nickel ores, which specifically located in Central Sulawesi, Luwuk, along with the explorations on iron ores in Pangandaran, West Java.")</script>
+                </p>
+            </div>
+            <div class="natural__text__divider"></div>
+            <div class="natural__text__item">
+                <h3 class="natural__text__item__title">
+                    <script>print(CN_LANG ? "魔芋" : "Konjac")</script>
+                </h3>
+                <p class="natural__text__item__description">
+                    <script>print(CN_LANG ? "2020年, 我们注意到魔芋是⼀种具有很多优势的农产品。因此我们决定拓 展魔芋业务。我公司与当地多家魔芋合作社有联系。凭借这⼀优势，我们 旨在为印度尼西亚带来改进和发展。我们还旨在通过魔芋产品为所有当地 农⺠带来繁荣" : "in 2020, we notice konjac is an agriculture commodities that has a lot of advantages. therefore we decided to expand into konjac business. our company is connected to many local konjac cooperative. with this advantage, we aim to bring indoneisa imrpovement and development. we also aim to bring prosper to all of local farmers through konjac products")</script>
+                </p>
+            </div>
+        </div>
+        <div class="natural__image">
+            <img class="natural__image__img" src="/about/images/natural.jpg" alt="natural">
+        </div>
+    </section>
+
+    <section class="policies">
+        <p class="policies__title">
+            <script>print(CN_LANG ? "公司政策" : "Company Policies")</script>
+        </p>
+        <div class="policies__content">
+            <div class="policies__content__item">
+                <img class="policies__content__item__icon" src="/about/images/balance.png" alt="balance">
+                <p class="policies__content__item__text">
+                    <script>print(CN_LANG ? "遵守任何法规和法律" : "Obedience to any regulation & Laws")</script>
+                </p>
+            </div>
+            <div class="policies__content__item">
+                <img class="policies__content__item__icon" src="/about/images/planet-earth.png" alt="balance">
+                <p class="policies__content__item__text">
+                    <script>print(CN_LANG ? "环境影响控制" : "Control on environmental impact")</script>
+                </p>
+            </div>
+            <div class="policies__content__item">
+                <img class="policies__content__item__icon" src="/about/images/guarantee.png" alt="balance">
+                <p class="policies__content__item__text">
+                    <script>print(CN_LANG ? "质量控制符合国际标准" : "Quality control complies to International Standard")</script>
+                </p>
+            </div>
+            <div class="policies__content__item">
+                <img class="policies__content__item__icon" src="/about/images/target.png" alt="balance">
+                <p class="policies__content__item__text">
+                    <script>print(CN_LANG ? "将客⼾满意度放在⾸位" : "Prioritize the customer satisfaction")</script>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan">
+        <div class="plan__text">
+            <p class="plan__text__title-outline">
+                <script>print(CN_LANG ? "未来的计划" : "Future Plan")</script>
+            </p>
+            <p class="plan__text__description">
+                <script>print(CN_LANG ? "我们相信未来越来越明朗。如果没有 战略、能⼒和实现社会价值的⽅法， 我们将在满⾜经济持续发展和⽣活⽔ 平提⾼⽅⾯发挥重要作⽤。凭借强⼤ 的性能基础，我们专注于世界需要改 善⽣活⽅式和健康的成分" : "We believe the future is increasingly clear. With out strategy, capabilities and approach to social value position us to play an imporant role in meeting continued economic development and improvement in living standard. With a strong foundation of performance, we're focused on the ingredients the world needs to inrease their lifestyle and health")</script>
+            </p>
+        </div>
+        <div class="plan__image">
+            <img src="/about/images/drew.jpg" alt="drew" class="plan__image__img">
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="partners__wrapper">
+            <p class="partners__wrapper__title">Our Partners</p>
+            <div class="partners__wrapper__content">
+                <div class="partners__wrapper__content__logo">
+                    <img class="partners__wrapper__content__logo__img" src="/about/images/golden-light-collection.png" alt="logo">
+                </div>
+                <div class="partners__wrapper__content__text">
+                    <h4 class="partners__wrapper__content__text__title">Golden Light Collection Ltd</h4>
+                    <p class="partners__wrapper__content__text__description">
+                        <script>print(CN_LANG ? "以供应魔芋产品为⽬标，引进更⼴泛的魔芋产 品。在 2021 年，我们与我们在新西兰的⼀个合 作伙伴合作。我们任命⾦光收藏有限公司为我们 在新西兰和澳⼤利亚的公司代表。" : "New Zealand & Australia Representatives<br /> NZ Company Number 5781217<br /> Address : Unit 3/10 Riccarton Road, Riccarton,<br /> Christchurch 8011. New Zealand")</script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script.js?v=1"></script>
+</body>
+
+</html>

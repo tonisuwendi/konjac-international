@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konjac International</title>
+    <link rel="stylesheet" href="/app.css?v=1">
+    <link rel="stylesheet" href="/style.css?v=1">
+    <script src="/main.js?v=1"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <a href="/">
+                <h2 class="header__nav__brand-name">Konjac <span
+                        class="header__nav__brand-name__span">International</span></h2>
+            </a>
+            <button id="navButtonMenu" class="header__nav__button" type="button">
+                <img src="/images/burger-bar.png" alt="menu" class="header__nav__button__image">
+            </button>
+            <ul class="header__nav__list">
+                <li>
+                    <a href="/" class="header__nav__list__item active">HOME</a>
+                </li>
+                <li>
+                    <a href="/about" class="header__nav__list__item">ABOUT</a>
+                </li>
+                <li>
+                    <a href="/product" class="header__nav__list__item">PRODUCT</a>
+                </li>
+                <li>
+                    <a href="/service" class="header__nav__list__item">SERVICE</a>
+                </li>
+                <li>
+                    <a href="/contact" class="header__nav__list__item">CONTACT</a>
+                </li>
+                <li>
+                    <img id="headerFlagLanguage" onclick="changeLanguage()" class="header__nav__list__item-flag"
+                        src="/images/china.png" alt="flag">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-helper"></div>
+
+    <section class="banner">
+        <div class="banner__content">
+            <h3 class="banner__content__title">
+                <script>print(CN_LANG ? "印尼主要魔芋供应商" : "Indonesia's Major Konjac Supplier")</script>
+            </h3>
+            <p class="banner__content__subtitle">
+                <script>print(CN_LANG ? "提供最优质的魔芋" : "Providing the best quality Konjac")</script>
+            </p>
+        </div>
+        <img class="banner__img" src="/images/banner.jpg" alt="banner">
+    </section>
+
+    <section class="about">
+        <div class="about__image">
+            <img class="about__image__car" src="/images/car-with-people.jpeg" alt="car with people">
+        </div>
+        <div class="about__text">
+            <h4 class="about__text__title">
+                <script>print(CN_LANG ? "我们是谁" : "WHO ARE WE")</script>
+            </h4>
+            <h4 class="about__text__subtitle">ROZAKTANA</h4>
+            <p class="about__text__description">
+                <script>
+                    print(CN_LANG ? "作为印度尼西亚魔芋产品的领先供应商。我们致⼒于通过提供开发、维持和改 善我们周围世界所需的魔芋来改善⽇常⽣活。我们还旨在通过魔芋向世界介绍 印度尼西亚的⾃然财富。" : "As a leading supplier of konjac products in Indonesia. We were commited to advancing everyday life by supplying konjac needed to develop, sustain and improve the world around us. We also aim to introduce Indonesia's natural wealth to the world through Konjac.")
+                </script>
+            </p>
+            <div class="about__text__button">
+                <a href="" class="button-outline">
+                    <script>print(CN_LANG ? "学到更多" : "LEARN MORE")</script>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="area">
+        <img src="/images/map-area.png" alt="map area" class="area__map">
+        <div class="area__content">
+            <h4 class="area__content__title">
+                <script>print(CN_LANG ? "印尼魔芋" : "Indonesia's Konjac")</script>
+            </h4>
+            <p class="area__content__description">
+                <script>
+                    print(CN_LANG ? "印度尼西亚，俗称⾚道的翡翠，也享有繁荣富⾜的美誉。在⾃然资源⽅ ⾯，印度尼西亚在农业领域、渔业和采矿业⽅⾯⾮常丰富，正如⼈们所预 料的那样，它当然以魔芋资源⽽闻名。 2020年, 印尼向世界各国出⼝魔 芋产品约2万吨。" : "Indonesia, commonly known as the emerald of the equator, also held the reputation for being a prosperous and wealthy country. In terms of natural resources, Indonesia is rich and abundant when it comes to the agriculture fields, fishery and mining, and as one would expect, certainly well known for their Konjac resources. In 2020, Indonesia had exported around 20,000 metric tons worth of Konjac products to various countries all around the world.")
+                </script>
+            </p>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="why__text">
+            <h4 class="why__text__title">
+                <script>print(CN_LANG ? "为什么是魔芋？" : "Why Konjac?")</script>
+            </h4>
+            <p class="why__text__description">
+                <script>
+                    print(CN_LANG ? "如今，健康问题仍然是⼀个全球性问题，同时对⽣态友好型 和消费者友好型产品的需求也很⼤。魔芋⽤于⻝品添加剂和 膳⻝补充剂，以降低⾎浆胆固醇，改善碳⽔化合物代谢，帮 助肠蠕动。" : "Nowadays the health issue remains a global issue, at the same time, there is a significant in the demand for eco friendly and consumer friendly products. Konjac is used for food additive and dietary supplement to lower plasma cholesterol, improve carbohydrate metabolism, and help bowel movements.")
+                </script>
+            </p>
+            <div class="why__text__button">
+                <a href="" class="button-outline">
+                    <script>print(CN_LANG ? "学到更多" : "LEARN MORE")</script>
+                </a>
+            </div>
+        </div>
+        <div class="why__image">
+            <img class="why__image__foodstuffs" src="/images/foodstuffs.jpg" alt="foodstuffs">
+        </div>
+    </section>
+
+    <script src="/script.js?v=1"></script>
+</body>
+
+</html>

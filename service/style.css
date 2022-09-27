@@ -1,0 +1,151 @@
+.services {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.services__title {
+    color: darkturquoise;
+    font-size: 50px;
+    text-align: center;
+}
+
+.services__description {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .services {
+        margin-top: 30px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .services__title {
+        font-size: 20px;
+    }
+
+    .services__description {
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: justify;
+    }
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.images__item {
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+.images__item.integrity {
+    background-image: url('/service/images/integrity.png');
+}
+
+.images__item.quality {
+    background-image: url('/service/images/quality.png');
+}
+
+.images__item.community {
+    background-image: url('/service/images/community.png');
+}
+
+.images__item__text {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (max-width: 1050px) {
+    .images {
+        margin-top: 30px;
+        width: 800px;
+    }
+
+    .images__item {
+        height: 500px;
+    }
+
+    .images__item__text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .images {
+        gap: 15px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .images {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .images__item {
+        height: 300px;
+    }
+
+    .images__item__text {
+        font-size: 18px;
+    }
+}
+
+.description {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.description__item {
+    margin-bottom: 30px;
+}
+
+.description__item__title {
+    color: darkturquoise;
+    font-size: 25px;
+}
+
+.description__item__content {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1050px) {
+    .description {
+        margin-top: 30px;
+        width: 95%;
+    }
+
+    .description__item {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description__item__title {
+        font-size: 18px;
+    }
+
+    .description__item__content {
+        font-size: 12px;
+    }
+}

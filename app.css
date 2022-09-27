@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-outline {
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 25px;
+    transition: 0.2s;
+}
+
+.button-outline:hover {
+    background-color: white;
+    color: #367FA4;
+}
+
+@media screen and (max-width: 1010px) {
+    .button-outline {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+}
+
+.header__nav {
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.header__nav__brand-name {
+    color: #333;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.header__nav__brand-name__span {
+    color: #0ea2bd;
+}
+
+.header__nav__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    line-height: 0;
+}
+
+.header__nav__button__image {
+    width: 30px;
+}
+
+.header__nav__list {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.header__nav__list__item {
+    color: #777;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.header__nav__list__item.active {
+    color: #367FA4;
+}
+
+.header__nav__list__item:hover {
+    color: #333;
+}
+
+.header__nav__list__item-flag {
+    cursor: pointer;
+    margin-left: 20px;
+    width: 30px;
+}
+
+.header-helper {
+    height: 80px;
+}
+
+@media screen and (max-width: 900px) {
+    .header__nav {
+        padding: 0 20px;
+    }
+
+    .header__nav__brand-name {
+        font-size: 20px;
+    }
+
+    .header__nav__button {
+        display: block;
+    }
+
+    .header__nav__list {
+        align-items: flex-start;
+        background-color: white;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.05);
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        left: 0;
+        padding: 10px 20px;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+    }
+
+    .header__nav__list__item {
+        font-size: 14px;
+    }
+
+    .header__nav__list__item-flag {
+        margin-left: 0;
+    }
+}
