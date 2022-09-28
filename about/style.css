@@ -17,6 +17,7 @@
 }
 
 .natural__text__item__title {
+    color: darkturquoise;
     font-size: 30px;
     font-weight: 400;
 }
@@ -169,7 +170,8 @@
 }
 
 .plan__text__title-outline {
-    border: 2px solid #222;
+    border: 2px solid darkturquoise;
+    color: darkturquoise;
     display: inline-block;
     font-size: 20px;
     padding: 12px 25px;

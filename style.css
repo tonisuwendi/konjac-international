@@ -257,7 +257,7 @@
 
 .why {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 3fr;
     margin: 100px 0;
     width: 100%;
 }
@@ -291,7 +291,7 @@
 
 .why__image {
     height: 100%;
-    width: 500px;
+    width: 100%;
 }
 
 .why__image__foodstuffs {
